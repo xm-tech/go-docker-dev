@@ -1,6 +1,6 @@
-# set up your own golang development enviroment with docker
+# workflow
 
-clone
+>clone
 
 ```shell
 # suggest hello as your AppName
@@ -8,13 +8,17 @@ clone
 git clone git@github.com:xm-tech/go-dev-docker.git hello
 ```
 
-build:
+>develop
+
+...
+
+>build:
 
 ```shell
 make
 ```
 
-run:
+>run:
 
 ```shell
 make run
