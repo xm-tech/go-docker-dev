@@ -1,5 +1,0 @@
-#!/bin/bash
-
-appname=$1
-tag=$2
-docker build -t go/"${appname}":"${tag}" .

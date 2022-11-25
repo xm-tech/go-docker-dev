@@ -1,7 +1,12 @@
+
+app_name = hello
+version = 1.0.0
+image_name = go/$(app_name):$(version)
+mod_name = github.com/xm-tech/$(app_name)
+
 all:
 	rm -f go.mod
-	go mod init github.com/xm-tech/hello
-	docker build -t go/hello:1.0.8 .
-	# ./build hello 1.0.8
+	go mod init $(mod_name)
+	docker build -t $(image_name) .
 run:
-	docker run go/hello:1.0.8
+	docker run $(image_name)

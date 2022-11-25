@@ -1,4 +1,12 @@
-# docs
+# set up your own golang development enviroment with docker
+
+clone
+
+```shell
+# suggest hello as your AppName
+
+git clone git@github.com:xm-tech/go-dev-docker.git hello
+```
 
 build:
 
@@ -12,4 +20,4 @@ run:
 make run
 ```
 
-u can change the 'hello' and 1.0.7 here in Makefile manully
+u can customize 'hello'(app_name) and 1.0.0(version) in the Makefile here
