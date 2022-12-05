@@ -1,6 +1,6 @@
 # workflow
 
->clone
+clone:
 
 ```shell
 # suggest hello as your AppName
@@ -8,17 +8,15 @@
 git clone git@github.com:xm-tech/go-dev-docker.git hello
 ```
 
->develop
+develop: xxx
 
-...
-
->build:
+build:
 
 ```shell
 make
 ```
 
->run:
+run:
 
 ```shell
 make run
